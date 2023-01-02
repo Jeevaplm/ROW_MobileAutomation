@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Login and Search Test Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test thread-count="3" name="Tests(failed)" verbose="2">
+    <classes>
+      <class name="apptests.StartTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpBrowser"/>
+          <include name="clickNextbutton"/>
+        </methods>
+      </class> <!-- apptests.StartTests -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [Login and Search Test Suite] -->
